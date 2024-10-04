@@ -39,3 +39,11 @@ VALUES('Segunda-Feira', '07:30', 'Biologia', 'Michele'),
 ('Sexta-Feira', '12:00', 'Ciência da Computação', 'Gabriel');
 
 SELECT * FROM Horario_Aula
+
+SELECT * FROM Horario_Aula WHERE Dia_Semana = 'Segunda-Feira';
+
+SELECT * FROM Horario_Aula WHERE Matéria = 'Programação Front-End';
+
+SELECT * FROM Horario_Aula WHERE Professor = 'Gabriel';
+
+SELECT * FROM Horario_Aula WHERE Hora > '10:00';
